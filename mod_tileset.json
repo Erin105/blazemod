@@ -1185,13 +1185,6 @@
             "additional_tiles": [ { "id": "broken", "fg": 62 } ]
           },
           {
-            "id": "vp_mounted_cx4",
-            "fg": 63,
-            "rotates": true,
-            "multitile": true,
-            "additional_tiles": [ { "id": "broken", "fg": 64 } ]
-          },
-          {
             "id": "vp_mounted_draco",
             "fg": 50,
             "rotates": true,
