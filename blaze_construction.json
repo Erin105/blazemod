@@ -43,7 +43,7 @@
     },
     "connect_groups": "WALL",
     "connects_to": "WALL",
-    "flags": [ "WALL", "TRANSPARENT", "EASY_DECONSTRUCT" ]
+    "flags": [ "WALL", "TRANSPARENT" ]
   },
   {
     "id": "blob_pit_slime",
@@ -63,7 +63,7 @@
     },
     "connect_groups": "WALL",
     "connects_to": "WALL",
-    "flags": [ "WALL", "TRANSPARENT", "EASY_DECONSTRUCT" ]
+    "flags": [ "WALL", "TRANSPARENT" ]
   },
   {
     "type": "construction",
