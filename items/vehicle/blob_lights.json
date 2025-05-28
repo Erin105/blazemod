@@ -1,7 +1,7 @@
 [
   {
     "id": "glowie",
-    "type": "GENERIC",
+    "type": "ITEM",
     "category": "veh_parts",
     "name": { "str": "gelectrode" },
     "//": "No Snake, eating it will not refill your batteries.",

@@ -1,7 +1,7 @@
 [
   {
     "id": "solar_array",
-    "type": "GENERIC",
+    "type": "ITEM",
     "category": "veh_parts",
     "name": { "str": "solar array" },
     "description": "A vertical array of three solar panels set on a chassis rising above one another on a metal pole with rudimentary tracking and motors.  Due to the flimsy nature of the hydraulics and high surface area profile to maximize sunlight, they can't really be installed onto an existing vehicle.  Requires a jumper cable or similar to pull power from.",
@@ -16,7 +16,7 @@
   },
   {
     "id": "reinforced_solar_array",
-    "type": "GENERIC",
+    "type": "ITEM",
     "copy-from": "solar_array",
     "name": { "str": "reinforced solar array" },
     "description": "A vertical array of three reinforced solar panels set on a chassis rising above one another on a metal pole with rudimentary tracking and motors.  Due to the flimsy nature of the hydraulics and high surface area profile to maximize sunlight, they can't really be installed onto an existing vehicle.  Requires a jumper cable or similar to pull power from.",
@@ -27,7 +27,7 @@
   },
   {
     "id": "solar_array_v2",
-    "type": "GENERIC",
+    "type": "ITEM",
     "copy-from": "solar_array",
     "name": { "str": "upgraded solar array" },
     "description": "A vertical array of three upgraded solar panels set on a chassis rising above one another on a metal pole with rudimentary tracking and motors.  Due to the flimsy nature of the hydraulics and high surface area profile to maximize sunlight, they can't really be installed onto an existing vehicle.  Requires a jumper cable or similar to pull power from.",
@@ -36,7 +36,7 @@
   },
   {
     "id": "reinforced_solar_array_v2",
-    "type": "GENERIC",
+    "type": "ITEM",
     "copy-from": "reinforced_solar_array",
     "name": { "str": "upgraded reinforced solar array" },
     "description": "A vertical array of three upgraded reinforced solar panels set on a chassis rising above one another on a metal pole with rudimentary tracking and motors.  Due to the flimsy nature of the hydraulics and high surface area profile to maximize sunlight, they can't really be installed onto an existing vehicle.  Requires a jumper cable or similar to pull power from.",

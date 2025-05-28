@@ -1,7 +1,7 @@
 [
   {
     "id": "gloople_tank",
-    "type": "GENERIC",
+    "type": "ITEM",
     "category": "container",
     "name": { "str": "gelatinous capsule" },
     "description": "While the blob is very eager to be fed, it's not as enthusiastic about giving up liquids.  A few alterations are necessary.",
@@ -24,7 +24,7 @@
   },
   {
     "id": "gloople_tank_large",
-    "type": "GENERIC",
+    "type": "ITEM",
     "category": "container",
     "name": { "str": "gelatinous tank" },
     "copy-from": "gloople_tank",
@@ -41,7 +41,7 @@
   },
   {
     "id": "gray_tank",
-    "type": "GENERIC",
+    "type": "ITEM",
     "category": "container",
     "name": { "str": "gray cocoon" },
     "description": "While the blob is very eager to be fed, it's not as enthusiastic about giving up liquids.  A few alterations are necessary.",
@@ -64,7 +64,7 @@
   },
   {
     "id": "gray_tank_large",
-    "type": "GENERIC",
+    "type": "ITEM",
     "category": "container",
     "name": { "str": "gray tank" },
     "copy-from": "gray_tank",
@@ -81,7 +81,7 @@
   },
   {
     "id": "oozle_tank",
-    "type": "GENERIC",
+    "type": "ITEM",
     "category": "container",
     "name": { "str": "oozing pod" },
     "description": "While the blob is very eager to be fed, it's not as enthusiastic about giving up liquids.  A few alterations are necessary.",
@@ -104,7 +104,7 @@
   },
   {
     "id": "oozle_tank_large",
-    "type": "GENERIC",
+    "type": "ITEM",
     "category": "container",
     "name": { "str": "oozing tank" },
     "copy-from": "oozle_tank",

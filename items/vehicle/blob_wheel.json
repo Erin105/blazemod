@@ -1,7 +1,8 @@
 [
   {
     "id": "frostie_wheel",
-    "type": "WHEEL",
+    "type": "ITEM",
+    "subtypes": [ "WHEEL" ],
     "category": "veh_parts",
     "name": { "str": "gelacier wheel" },
     "description": "A biological mystery, this blob's internal structures exist in within a pool of low-density fluid that remains liquid despite being in a super-cooled state; yet possesses all the malleability of its former self.  Fragments of frost continually flake off it.  It has formed itself into a wide, crude wheel.",
@@ -16,7 +17,8 @@
   },
   {
     "id": "gloople_wheel",
-    "type": "WHEEL",
+    "type": "ITEM",
+    "subtypes": [ "WHEEL" ],
     "category": "veh_parts",
     "name": { "str": "gelatinous wheel" },
     "description": "Filling a gelatinous mass with water has resulted in something that appears to be a cross between a wheel, an otherworldly abomination, and one of those old squeezy toys.",
@@ -31,7 +33,8 @@
   },
   {
     "id": "gray_wheel",
-    "type": "WHEEL",
+    "type": "ITEM",
+    "subtypes": [ "WHEEL" ],
     "category": "veh_parts",
     "name": { "str": "gray wheel" },
     "description": "Filling a gray mass with water has resulted in something that appears to be a cross between a wheel, an otherworldly abomination, and one of those old squeezy toys.",
@@ -46,7 +49,8 @@
   },
   {
     "id": "grinder",
-    "type": "WHEEL",
+    "type": "ITEM",
+    "subtypes": [ "WHEEL" ],
     "category": "veh_parts",
     "name": { "str": "earthen roller" },
     "description": "A large, spherical blob the size of a large truck tire.  The outer layer has compacted itself into a solid shell; offering great resilience.  Having grown to full size, it seems content to simply sit there.",
@@ -62,7 +66,8 @@
   },
   {
     "id": "oozle_wheel",
-    "type": "WHEEL",
+    "type": "ITEM",
+    "subtypes": [ "WHEEL" ],
     "category": "veh_parts",
     "name": { "str": "oozing wheel" },
     "description": "Filling an oozing mass with water has resulted in something that appears to be a cross between a wheel, an otherworldly abomination, and one of those old squeezy toys.",

@@ -1,7 +1,7 @@
 [
   {
     "id": "diamondframe",
-    "type": "GENERIC",
+    "type": "ITEM",
     "category": "veh_parts",
     "name": { "str": "diamond frame" },
     "//": "Sempai can't resist me now!",
@@ -17,7 +17,7 @@
   },
   {
     "id": "diamondplate",
-    "type": "GENERIC",
+    "type": "ITEM",
     "category": "veh_parts",
     "name": { "str": "diamond plating" },
     "description": "A piece of armor plating made of clear diamond.  Incredibly strong for its weight.",

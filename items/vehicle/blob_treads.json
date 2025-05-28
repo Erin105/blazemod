@@ -1,7 +1,8 @@
 [
   {
     "id": "gloopletread",
-    "type": "WHEEL",
+    "type": "ITEM",
+    "subtypes": [ "WHEEL" ],
     "category": "veh_parts",
     "name": { "str": "Gelatinous track" },
     "description": "A short, interlocking set of tracks created out of some of your monstrosity blob based parts.  Similar with what you might see used on light construction vehicles.  It's significantly stronger than regular tires due to not being at risk of bursting; but is quite heavy.",
@@ -17,7 +18,8 @@
   },
   {
     "id": "oozletread",
-    "type": "WHEEL",
+    "type": "ITEM",
+    "subtypes": [ "WHEEL" ],
     "category": "veh_parts",
     "name": { "str": "Oozing track" },
     "description": "A short, interlocking set of tracks created out of some of your monstrosity blob based parts.  Similar with what you might see used on light construction vehicles.  It's significantly stronger than regular tires due to not being at risk of bursting; but is quite heavy.",
@@ -33,7 +35,8 @@
   },
   {
     "id": "graytread",
-    "type": "WHEEL",
+    "type": "ITEM",
+    "subtypes": [ "WHEEL" ],
     "category": "veh_parts",
     "name": { "str": "Gray track" },
     "description": "A short, interlocking set of tracks created out of some of your monstrosity blob based parts.  Similar with what you might see used on light construction vehicles.  It's significantly stronger than regular tires due to not being at risk of bursting; but is quite heavy.",

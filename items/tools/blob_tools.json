@@ -1,7 +1,8 @@
 [
   {
     "id": "bframegrow",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "category": "tools",
     "name": { "str": "growing blob frame" },
     "description": "A growing vehicle frame made of bone.  It's coated in a thick layer of ooze, though there's greater amounts on the bindings.  It's not quite tough enough to use.",
@@ -21,7 +22,8 @@
   },
   {
     "id": "bitergrow",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "category": "tools",
     "name": { "str_sp": "growing keratinous mass" },
     "description": "Not quite fully grown, this blob requires nourishment to fully develop.",
@@ -41,7 +43,8 @@
   },
   {
     "id": "cluttergrow",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "category": "tools",
     "name": { "str_sp": "growing beaded mass" },
     "description": "Not quite fully grown, this blob requires nourishment to fully develop.",
@@ -61,7 +64,8 @@
   },
   {
     "id": "freeziegrow",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "category": "tools",
     "name": { "str_sp": "growing icy mass" },
     "description": "Not quite fully grown, this blob requires nourishment to fully develop.",
@@ -81,7 +85,8 @@
   },
   {
     "id": "frostie",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "category": "tools",
     "name": { "str": "gelacier" },
     "description": "A biological mystery, this blob's internal structures exist in within a pool of low-density fluid that remains liquid despite being in a super-cooled state; yet possesses all the malleability of its former self.  Fragments of frost continually flake off it.  It seems pliable enough to pull apart…",
@@ -95,7 +100,8 @@
   },
   {
     "id": "frostiegrow",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "category": "tools",
     "name": { "str_sp": "growing cold mass" },
     "description": "Not quite fully grown, this blob requires nourishment to fully develop.",
@@ -115,7 +121,8 @@
   },
   {
     "id": "fuzzlegrow",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "category": "tools",
     "name": { "str_sp": "growing hairy mass" },
     "description": "Not quite fully grown, this blob requires nourishment to fully develop.",
@@ -135,7 +142,8 @@
   },
   {
     "id": "gloople",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "category": "tools",
     "name": { "str_sp": "gelatinous mass" },
     "description": "An experiment gone horribly right.  While the original intent was to combine the structure of a bone frame with the impact absorption of the blob; the blob seems to have completely consumed the bone.  Instead, what remains is an amorphous mass of goo with what seems to be numerous thin filaments floating within.  With a bit of effort, you can grasp the fibers and stretch the mass into a multitude of shapes.  The mass is able to retain the new shape even under force, though the mass yields at your touch.  With enough strength, you think you can pull it apart.",
@@ -160,7 +168,8 @@
   },
   {
     "id": "gloople_act",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "category": "tools",
     "name": { "str_sp": "multiplying gelatinous mass" },
     "description": "Having been fed, this blob is now rapidly multiplying into other copies of itself; extremely noisy copies!  And even worse, it's stuck to your hands until whatever it's doing is done!  Catch those blobs before they bring in every zombie for miles!",
@@ -189,7 +198,8 @@
   },
   {
     "id": "glooplegrow",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "category": "tools",
     "name": { "str_sp": "growing gelatinous mass" },
     "description": "Not quite fully grown, this blob requires nourishment to fully develop.",
@@ -209,7 +219,8 @@
   },
   {
     "id": "glowiegrow",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "category": "tools",
     "name": { "str_sp": "growing glowing mass" },
     "description": "Not quite fully grown, this blob requires nourishment to fully develop.",
@@ -229,7 +240,8 @@
   },
   {
     "id": "gray",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "category": "tools",
     "name": { "str_sp": "gray mass" },
     "description": "This internal structures of this creature have developed significantly.  While retaining the resilience and malleability of its once simpler form, it has gained the considerable abilities of perception and stimulus response.  When directly threatened, it is able to shift and alter its microfibers, hardening its membrane to an almost steel-hard shell.  You can still pull it apart with enough force.  It's also really gray.",
@@ -254,7 +266,8 @@
   },
   {
     "id": "gray_act",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "category": "tools",
     "name": { "str_sp": "multiplying gray mass" },
     "description": "Having been fed, this blob is now rapidly multiplying into other copies of itself; extremely noisy copies!  And even worse, it's stuck to your hands until whatever it's doing is done!  Catch those blobs before they bring in every zombie for miles!",
@@ -283,7 +296,8 @@
   },
   {
     "id": "graygrow",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "category": "tools",
     "name": { "str_sp": "growing gray mass" },
     "description": "Not quite fully grown, this blob requires nourishment to fully develop.",
@@ -303,7 +317,8 @@
   },
   {
     "id": "horrorgrow",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "category": "tools",
     "name": { "str_sp": "growing spike-studded mass" },
     "description": "Not quite fully grown, this blob requires nourishment to fully develop.",
@@ -323,7 +338,8 @@
   },
   {
     "id": "inkiegrow",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "category": "tools",
     "name": { "str_sp": "growing gasoline-laced mass" },
     "description": "Not quite fully grown, this blob requires nourishment to fully develop.",
@@ -343,7 +359,8 @@
   },
   {
     "id": "meltiegrow",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "category": "tools",
     "name": { "str_sp": "growing acidic mass" },
     "description": "Not quite fully grown, this blob requires nourishment to fully develop.",
@@ -363,7 +380,8 @@
   },
   {
     "id": "oozle",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "category": "tools",
     "name": { "str_sp": "oozing mass" },
     "description": "An amorphous mass that has undergone a significant growth.  In addition to the increased amount of goo and sinuous filaments, it seems to have started developing other internal structures.  Like its smaller counterpart, it can be shaped into various structures; albeit with significantly greater tensile strength due to the increased number of supporting filaments.  You believe you can split it apart with enough force.",
@@ -388,7 +406,8 @@
   },
   {
     "id": "oozle_act",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "category": "tools",
     "name": { "str_sp": "multiplying oozing mass" },
     "description": "Having been fed, this blob is now rapidly multiplying into other copies of itself; extremely noisy copies!  And even worse, it's stuck to your hands until whatever it's doing is done!  Catch those blobs before they bring in every zombie for miles!",
@@ -416,7 +435,8 @@
   },
   {
     "id": "oozlegrow",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "category": "tools",
     "name": { "str_sp": "growing ooze" },
     "description": "Not quite fully grown, this blob requires nourishment to fully develop.",
@@ -436,7 +456,8 @@
   },
   {
     "id": "queengrow",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "category": "tools",
     "name": { "str_sp": "growing mass of tendrils" },
     "description": "Not quite fully grown, this blob requires nourishment to fully develop.",
@@ -456,7 +477,8 @@
   },
   {
     "id": "razorqueengrow",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "category": "tools",
     "name": { "str_sp": "growing spiked mass" },
     "description": "Not quite fully grown, this blob requires nourishment to fully develop.",
@@ -476,7 +498,8 @@
   },
   {
     "id": "sharpgrow",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "category": "tools",
     "name": { "str_sp": "growing spiny mass" },
     "description": "Not quite fully grown, this blob requires nourishment to fully develop.",
@@ -496,7 +519,8 @@
   },
   {
     "id": "sicklegrow",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "category": "tools",
     "name": { "str_sp": "growing spiky mass" },
     "description": "Not quite fully grown, this blob requires nourishment to fully develop.",
@@ -516,7 +540,8 @@
   },
   {
     "id": "sparkiegrow",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "category": "tools",
     "name": { "str_sp": "growing bright mass" },
     "description": "Not quite fully grown, this blob requires nourishment to fully develop.",
@@ -536,7 +561,8 @@
   },
   {
     "id": "stickiegrow",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "category": "tools",
     "name": { "str_sp": "growing viscous mass" },
     "description": "Not quite fully grown, this blob requires nourishment to fully develop.",
@@ -556,7 +582,8 @@
   },
   {
     "id": "torchiegrow",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "category": "tools",
     "name": { "str_sp": "growing warm mass" },
     "description": "Not quite fully grown, this blob requires nourishment to fully develop.",
@@ -576,7 +603,8 @@
   },
   {
     "id": "voideatergrow",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "category": "tools",
     "name": { "str_sp": "growing electrified mass" },
     "description": "Not quite fully grown, this blob requires nourishment to fully develop.",

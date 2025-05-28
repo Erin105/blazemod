@@ -1,7 +1,8 @@
 [
   {
     "id": "tread1",
-    "type": "WHEEL",
+    "type": "ITEM",
+    "subtypes": [ "WHEEL" ],
     "category": "veh_parts",
     "name": { "str": "Rubber Caterpillar Track" },
     "description": "A short, interlocking set of hard rubber tracks reinforced by stiff wire held in place by a set of smaller wheels.  Similar with what you might see used on light construction vehicles.  It's significantly stronger than regular tires due to not being at risk of bursting; but is quite heavy.",
@@ -17,7 +18,8 @@
   },
   {
     "id": "tread2",
-    "type": "WHEEL",
+    "type": "ITEM",
+    "subtypes": [ "WHEEL" ],
     "category": "veh_parts",
     "name": { "str": "Steel Caterpillar Track" },
     "description": "A short, interlocking set of shaped steel tracks held in place by a set of smaller wheels.  Similar with what you might see used on large construction vehicles.  It's significantly stronger than regular tires due to not being at risk of bursting; but is very heavy.",
@@ -33,7 +35,8 @@
   },
   {
     "id": "tread3",
-    "type": "WHEEL",
+    "type": "ITEM",
+    "subtypes": [ "WHEEL" ],
     "category": "veh_parts",
     "name": { "str": "Reinforced Caterpillar Track" },
     "description": "A short, interlocking set of shaped steel tracks held in place by a set of smaller wheels.  Similar with what you might see used on APCs and armored vehicles.  It's significantly stronger than regular tires due to not being at risk of bursting; but is extremely heavy.",

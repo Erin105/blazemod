@@ -1,7 +1,8 @@
 [
   {
     "id": "dcluster",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "name": { "str": "diamond cluster" },
     "description": "A cluster of artificial crystals that have broken off of a diamond matrix.  While the substance usually decays when separated from the catalyst; this cluster seems to be self-sustaining by some unknown mechanism.  ",
     "weight": "350 g",
@@ -23,7 +24,8 @@
   },
   {
     "id": "spiral_matrix",
-    "type": "TOOL",
+    "type": "ITEM",
+    "subtypes": [ "TOOL" ],
     "name": { "str": "diamond matrix", "str_pl": "diamond matrices" },
     "description": "A sparkling diamond with a dazzling spiral pattern.  Small pieces of glittering crystal form on the edges as you hold it.",
     "weight": "250 g",

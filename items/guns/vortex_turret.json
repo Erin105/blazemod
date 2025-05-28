@@ -1,7 +1,8 @@
 [
   {
     "id": "vortexaccelerator",
-    "type": "GUN",
+    "type": "ITEM",
+    "subtypes": [ "GUN" ],
     "name": { "str": "vortex accelerator" },
     "description": "This weapon uses powerful bursts of air to launch sharp fragments at its target at high speed.  You'll need some form of platform to mount it on.",
     "weight": "10700 g",
@@ -27,7 +28,8 @@
   },
   {
     "id": "vortexbolter",
-    "type": "GUN",
+    "type": "ITEM",
+    "subtypes": [ "GUN" ],
     "name": { "str": "vortex bolter" },
     "description": "This weapon uses powerful bursts of air to launch bolts at its target at high speed.  You'll need some form of platform to mount it on.",
     "weight": "8310 g",
@@ -54,7 +56,8 @@
   },
   {
     "id": "vortexcannon",
-    "type": "GUN",
+    "type": "ITEM",
+    "subtypes": [ "GUN" ],
     "name": { "str": "vortex cannon" },
     "description": "Essentially a large pneumatic gun made to hurl sharpened metal rails.  Instead of a mechanical system, you've managed to harness the vortex to power this gun.  While powerful for its size, you'll need some form of platform to mount it on.",
     "weight": "21831 g",
@@ -79,7 +82,8 @@
   },
   {
     "id": "vortexrifle",
-    "type": "GUN",
+    "type": "ITEM",
+    "subtypes": [ "GUN" ],
     "name": { "str": "vortex rifle" },
     "description": "This weapon uses powerful bursts of air to launch small projectiles at its target at high speed.  You'll need some form of platform to mount it on.",
     "weight": "11759 g",
