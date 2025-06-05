@@ -59,7 +59,7 @@
       [ [ "duct_tape", 100 ], [ "superglue", 1 ] ],
       [ [ "2x4", 1 ], [ "stick", 1 ] ],
       [ [ "metal_tank_little", 1 ] ],
-      [ [ "steel_chunk", 3 ], [ "scrap", 9 ] ]
+      [ [ "lc_steel_chunk", 3 ], [ "scrap", 9 ] ]
     ]
   },
   {
@@ -80,7 +80,7 @@
       [ [ "duct_tape", 100 ], [ "superglue", 1 ] ],
       [ [ "2x4", 1 ], [ "stick", 1 ] ],
       [ [ "metal_tank_little", 1 ] ],
-      [ [ "steel_chunk", 3 ], [ "scrap", 9 ] ]
+      [ [ "lc_steel_chunk", 3 ], [ "scrap", 9 ] ]
     ]
   },
   {
@@ -101,7 +101,7 @@
       [ [ "duct_tape", 100 ], [ "superglue", 1 ] ],
       [ [ "2x4", 1 ], [ "stick", 1 ] ],
       [ [ "metal_tank_little", 1 ] ],
-      [ [ "steel_chunk", 4 ], [ "scrap", 12 ] ]
+      [ [ "lc_steel_chunk", 4 ], [ "scrap", 12 ] ]
     ]
   },
   {
@@ -126,7 +126,7 @@
       [ [ "cable", 80 ] ],
       [ [ "2x4", 1 ], [ "stick", 1 ] ],
       [ [ "power_supply", 2 ] ],
-      [ [ "steel_chunk", 3 ], [ "scrap", 18 ] ],
+      [ [ "lc_steel_chunk", 3 ], [ "scrap", 18 ] ],
       [ [ "rebar", 1 ], [ "pipe", 1 ] ],
       [ [ "e_scrap", 20 ] ]
     ]

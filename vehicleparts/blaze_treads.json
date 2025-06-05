@@ -11,8 +11,8 @@
     "damage_modifier": 50,
     "description": "A section of continuous track, the kind mounted on construction vehicles and military fighting vehicles.  It acts as a wheel, and the broad surface provides plenty of traction to move heavy vehicles off-road, but at the cost of speed due to the heavy weight.",
     "breaks_into": [
-      { "item": "steel_lump", "count": [ 2, 4 ] },
-      { "item": "steel_chunk", "count": [ 6, 12 ] },
+      { "item": "lc_steel_lump", "count": [ 2, 4 ] },
+      { "item": "lc_steel_chunk", "count": [ 6, 12 ] },
       { "item": "scrap", "count": [ 8, 18 ] },
       { "item": "plastic_chunk", "count": [ 50, 120 ] },
       { "item": "chain", "count": [ 1, 3 ] }
@@ -41,8 +41,8 @@
     "damage_modifier": 50,
     "description": "A section of continuous track, the kind mounted on construction vehicles and military fighting vehicles.  It acts as a wheel, and the broad surface provides plenty of traction to move heavy vehicles off-road, but at the cost of speed due to the heavy weight.",
     "breaks_into": [
-      { "item": "steel_lump", "count": [ 8, 16 ] },
-      { "item": "steel_chunk", "count": [ 20, 40 ] },
+      { "item": "lc_steel_lump", "count": [ 8, 16 ] },
+      { "item": "lc_steel_chunk", "count": [ 20, 40 ] },
       { "item": "scrap", "count": [ 50, 75 ] },
       { "item": "chain", "count": [ 3, 6 ] }
     ],
@@ -70,8 +70,8 @@
     "damage_modifier": 50,
     "description": "A section of continuous track, the kind mounted on construction vehicles and military fighting vehicles.  It acts as a wheel, and the broad surface provides plenty of traction to move heavy vehicles off-road, but at the cost of speed due to the heavy weight.",
     "breaks_into": [
-      { "item": "steel_lump", "count": [ 12, 30 ] },
-      { "item": "steel_chunk", "count": [ 25, 60 ] },
+      { "item": "lc_steel_lump", "count": [ 12, 30 ] },
+      { "item": "lc_steel_chunk", "count": [ 25, 60 ] },
       { "item": "scrap", "count": [ 60, 120 ] },
       { "item": "chain", "count": [ 3, 4 ] }
     ],

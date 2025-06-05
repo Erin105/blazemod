@@ -62,7 +62,7 @@
       [ [ "metal_tank_little", 1 ] ],
       [ [ "pipe", 2 ] ],
       [ [ "helsing", 1 ] ],
-      [ [ "steel_chunk", 9 ], [ "steel_lump", 3 ] ],
+      [ [ "lc_steel_chunk", 9 ], [ "lc_steel_lump", 3 ] ],
       [ [ "plastic_chunk", 6 ] ],
       [ [ "vortex_stone", 1 ] ]
     ]
@@ -84,7 +84,7 @@
       [ [ "metal_tank_little", 1 ] ],
       [ [ "pipe", 2 ] ],
       [ [ "tihar", 1 ] ],
-      [ [ "steel_chunk", 9 ], [ "steel_lump", 3 ] ],
+      [ [ "lc_steel_chunk", 9 ], [ "lc_steel_lump", 3 ] ],
       [ [ "plastic_chunk", 6 ] ],
       [ [ "vortex_stone", 1 ] ]
     ]
@@ -105,7 +105,7 @@
     "components": [
       [ [ "metal_tank_little", 1 ] ],
       [ [ "pipe", 4 ] ],
-      [ [ "steel_chunk", 18 ], [ "steel_lump", 6 ] ],
+      [ [ "lc_steel_chunk", 18 ], [ "lc_steel_lump", 6 ] ],
       [ [ "plastic_chunk", 6 ] ],
       [ [ "vortex_stone", 1 ] ]
     ]
@@ -140,7 +140,7 @@
     "components": [
       [ [ "metal_tank", 1 ] ],
       [ [ "pipe", 10 ] ],
-      [ [ "steel_chunk", 24 ], [ "steel_lump", 6 ] ],
+      [ [ "lc_steel_chunk", 24 ], [ "lc_steel_lump", 6 ] ],
       [ [ "spring", 2 ] ],
       [ [ "plastic_chunk", 12 ] ],
       [ [ "vortex_stone", 1 ] ]

@@ -12,7 +12,7 @@
     "autolearn": true,
     "using": [ [ "soldering_standard", 30 ] ],
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
-    "components": [ [ [ "foot_crank", 1 ] ], [ [ "scrap", 9 ], [ "steel_chunk", 3 ] ], [ [ "helsing", 1 ] ] ]
+    "components": [ [ [ "foot_crank", 1 ] ], [ [ "scrap", 9 ], [ "lc_steel_chunk", 3 ] ], [ [ "helsing", 1 ] ] ]
   },
   {
     "result": "cangun",
@@ -32,7 +32,7 @@
       [ [ "adhesive", 3, "LIST" ], [ "nail", 100 ] ],
       [ [ "foot_crank", 1 ] ],
       [ [ "2x4", 8 ] ],
-      [ [ "steel_chunk", 3 ], [ "scrap", 9 ] ]
+      [ [ "lc_steel_chunk", 3 ], [ "scrap", 9 ] ]
     ]
   },
   {
@@ -67,7 +67,7 @@
     "components": [
       [ [ "pipe", 3 ] ],
       [ [ "foot_crank", 1 ] ],
-      [ [ "scrap", 18 ], [ "steel_chunk", 9 ], [ "steel_lump", 3 ] ],
+      [ [ "scrap", 18 ], [ "lc_steel_chunk", 9 ], [ "lc_steel_lump", 3 ] ],
       [ [ "element", 1 ], [ "pilot_light", 1 ] ],
       [ [ "chain", 1 ] ]
     ]
@@ -87,7 +87,7 @@
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
     "components": [
       [ [ "lens", 2 ] ],
-      [ [ "scrap", 9 ], [ "steel_chunk", 3 ] ],
+      [ [ "scrap", 9 ], [ "lc_steel_chunk", 3 ] ],
       [ [ "cable", 50 ] ],
       [ [ "plastic_chunk", 2 ] ],
       [ [ "amplifier", 2 ] ],
@@ -136,7 +136,7 @@
     "components": [
       [ [ "UPS_off", 2 ], [ "small_storage_battery", 2 ] ],
       [ [ "lens", 4 ] ],
-      [ [ "scrap", 9 ], [ "steel_chunk", 3 ] ],
+      [ [ "scrap", 9 ], [ "lc_steel_chunk", 3 ] ],
       [ [ "cable", 50 ] ],
       [ [ "plastic_chunk", 8 ] ],
       [ [ "amplifier", 8 ] ],
@@ -159,7 +159,7 @@
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
     "components": [
       [ [ "UPS_off", 1 ], [ "small_storage_battery", 1 ] ],
-      [ [ "scrap", 8 ], [ "steel_chunk", 3 ] ],
+      [ [ "scrap", 8 ], [ "lc_steel_chunk", 3 ] ],
       [ [ "cable", 100 ] ],
       [ [ "plastic_chunk", 10 ] ],
       [ [ "amplifier", 5 ] ],
@@ -180,7 +180,7 @@
     "autolearn": true,
     "using": [ [ "soldering_standard", 40 ] ],
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
-    "components": [ [ [ "foot_crank", 1 ] ], [ [ "scrap", 12 ], [ "steel_chunk", 4 ] ], [ [ "nailrifle", 1 ] ] ]
+    "components": [ [ [ "foot_crank", 1 ] ], [ [ "scrap", 12 ], [ "lc_steel_chunk", 4 ] ], [ [ "nailrifle", 1 ] ] ]
   },
   {
     "result": "railturret",
@@ -197,7 +197,7 @@
     "using": [ [ "soldering_standard", 30 ] ],
     "components": [
       [ [ "UPS_off", 2 ], [ "small_storage_battery", 2 ] ],
-      [ [ "scrap", 12 ], [ "steel_chunk", 3 ] ],
+      [ [ "scrap", 12 ], [ "lc_steel_chunk", 3 ] ],
       [ [ "cable", 200 ] ],
       [ [ "plastic_chunk", 12 ] ],
       [ [ "amplifier", 8 ] ],
@@ -240,7 +240,7 @@
       [ [ "nail", 100 ], [ "adhesive", 2, "LIST" ] ],
       [ [ "2x4", 3 ], [ "stick", 3 ] ],
       [ [ "metal_tank", 1 ] ],
-      [ [ "steel_chunk", 5 ], [ "scrap", 15 ] ],
+      [ [ "lc_steel_chunk", 5 ], [ "scrap", 15 ] ],
       [ [ "foot_crank", 1 ] ]
     ]
   },
@@ -261,7 +261,7 @@
       [ [ "2x4", 12 ], [ "stick", 12 ] ],
       [ [ "string_36", 12 ] ],
       [ [ "foot_crank", 1 ] ],
-      [ [ "steel_chunk", 3 ], [ "scrap", 9 ] ],
+      [ [ "lc_steel_chunk", 3 ], [ "scrap", 9 ] ],
       [ [ "nail", 60 ], [ "adhesive", 5, "LIST" ] ]
     ]
   },
@@ -280,7 +280,7 @@
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
     "components": [
       [ [ "UPS_off", 1 ], [ "small_storage_battery", 1 ] ],
-      [ [ "scrap", 8 ], [ "steel_chunk", 3 ] ],
+      [ [ "scrap", 8 ], [ "lc_steel_chunk", 3 ] ],
       [ [ "cable", 60 ] ],
       [ [ "plastic_chunk", 8 ] ],
       [ [ "amplifier", 3 ] ],
@@ -306,7 +306,7 @@
       [ [ "string_36", 6 ] ],
       [ [ "foot_crank", 1 ] ],
       [ [ "pipe", 4 ] ],
-      [ [ "steel_chunk", 3 ], [ "scrap", 9 ] ],
+      [ [ "lc_steel_chunk", 3 ], [ "scrap", 9 ] ],
       [ [ "nail", 30 ], [ "adhesive", 3, "LIST" ] ]
     ]
   },
@@ -348,7 +348,7 @@
     "autolearn": true,
     "using": [ [ "soldering_standard", 30 ] ],
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
-    "components": [ [ [ "foot_crank", 1 ] ], [ [ "scrap", 12 ], [ "steel_chunk", 4 ] ], [ [ "tihar", 1 ] ] ]
+    "components": [ [ [ "foot_crank", 1 ] ], [ [ "scrap", 12 ], [ "lc_steel_chunk", 4 ] ], [ [ "tihar", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -363,7 +363,7 @@
     "reversible": true,
     "autolearn": true,
     "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH", "level": 1 } ],
-    "components": [ [ [ "pipe", 2 ] ], [ [ "spring", 1 ] ], [ [ "steel_chunk", 3 ] ], [ [ "2x4", 1 ] ], [ [ "scrap", 3 ] ] ]
+    "components": [ [ [ "pipe", 2 ] ], [ [ "spring", 1 ] ], [ [ "lc_steel_chunk", 3 ] ], [ [ "2x4", 1 ] ], [ [ "scrap", 3 ] ] ]
   },
   {
     "type": "recipe",
@@ -377,6 +377,6 @@
     "time": "2 h",
     "autolearn": true,
     "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH", "level": 1 } ],
-    "components": [ [ [ "pipe", 2 ] ], [ [ "spring", 1 ] ], [ [ "steel_chunk", 3 ] ], [ [ "2x4", 1 ] ], [ [ "scrap", 3 ] ] ]
+    "components": [ [ [ "pipe", 2 ] ], [ [ "spring", 1 ] ], [ [ "lc_steel_chunk", 3 ] ], [ [ "2x4", 1 ] ], [ [ "scrap", 3 ] ] ]
   }
 ]

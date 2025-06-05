@@ -12,7 +12,7 @@
     "autolearn": true,
     "using": [ [ "welding_standard", 2 ] ],
     "qualities": [ { "id": "HAMMER", "level": 2 } ],
-    "components": [ [ [ "sheet_metal", 4 ] ], [ [ "steel_chunk", 4 ] ], [ [ "plastic_chunk", 6 ] ] ]
+    "components": [ [ [ "sheet_metal", 4 ] ], [ [ "steel_chunk_any", 4, "LIST" ] ], [ [ "plastic_chunk", 6 ] ] ]
   },
   {
     "result": "bolt_hopper",
@@ -27,7 +27,7 @@
     "autolearn": true,
     "using": [ [ "welding_standard", 2 ] ],
     "qualities": [ { "id": "HAMMER", "level": 2 } ],
-    "components": [ [ [ "sheet_metal", 4 ] ], [ [ "steel_chunk", 4 ] ], [ [ "plastic_chunk", 6 ] ] ]
+    "components": [ [ [ "sheet_metal", 4 ] ], [ [ "steel_chunk_any", 4, "LIST" ] ], [ [ "plastic_chunk", 6 ] ] ]
   },
   {
     "result": "cannister_rack",
@@ -42,7 +42,7 @@
     "autolearn": true,
     "using": [ [ "welding_standard", 2 ] ],
     "qualities": [ { "id": "HAMMER", "level": 2 } ],
-    "components": [ [ [ "sheet_metal", 4 ] ], [ [ "steel_chunk", 4 ] ], [ [ "plastic_chunk", 6 ] ] ]
+    "components": [ [ [ "sheet_metal", 4 ] ], [ [ "steel_chunk_any", 4, "LIST" ] ], [ [ "plastic_chunk", 6 ] ] ]
   },
   {
     "result": "pebble_hopper",
@@ -57,6 +57,6 @@
     "autolearn": true,
     "using": [ [ "welding_standard", 2 ] ],
     "qualities": [ { "id": "HAMMER", "level": 2 } ],
-    "components": [ [ [ "sheet_metal", 4 ] ], [ [ "steel_chunk", 4 ] ], [ [ "plastic_chunk", 6 ] ] ]
+    "components": [ [ [ "sheet_metal", 4 ] ], [ [ "steel_chunk_any", 4, "LIST" ] ], [ [ "plastic_chunk", 6 ] ] ]
   }
 ]

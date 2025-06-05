@@ -14,7 +14,7 @@
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
     "components": [
       [ [ "pipe", 4 ], [ "rebar", 2 ] ],
-      [ [ "steel_chunk", 18 ], [ "steel_lump", 6 ] ],
+      [ [ "lc_steel_chunk", 18 ], [ "lc_steel_lump", 6 ] ],
       [ [ "spring", 1 ] ],
       [ [ "sensor_module", 1 ] ],
       [ [ "targeting_module", 1 ] ],
@@ -37,7 +37,7 @@
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
     "components": [
       [ [ "pipe", 4 ], [ "rebar", 2 ] ],
-      [ [ "steel_chunk", 18 ], [ "steel_lump", 6 ] ],
+      [ [ "lc_steel_chunk", 18 ], [ "lc_steel_lump", 6 ] ],
       [ [ "spring", 1 ] ],
       [ [ "sensor_module", 1 ] ],
       [ [ "targeting_module", 1 ] ],
@@ -60,7 +60,7 @@
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
     "components": [
       [ [ "pipe", 4 ], [ "rebar", 2 ] ],
-      [ [ "steel_chunk", 18 ], [ "steel_lump", 6 ] ],
+      [ [ "lc_steel_chunk", 18 ], [ "lc_steel_lump", 6 ] ],
       [ [ "spring", 1 ] ],
       [ [ "sensor_module", 1 ] ],
       [ [ "targeting_module", 1 ] ],
@@ -83,7 +83,7 @@
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
     "components": [
       [ [ "pipe", 4 ], [ "rebar", 2 ] ],
-      [ [ "steel_chunk", 18 ], [ "steel_lump", 6 ] ],
+      [ [ "lc_steel_chunk", 18 ], [ "lc_steel_lump", 6 ] ],
       [ [ "spring", 1 ] ],
       [ [ "sensor_module", 1 ] ],
       [ [ "targeting_module", 1 ] ],
@@ -175,7 +175,7 @@
     "components": [
       [ [ "pipe", 8 ], [ "rebar", 4 ] ],
       [ [ "wire", 20 ] ],
-      [ [ "scrap", 21 ], [ "steel_chunk", 9 ], [ "steel_lump", 1 ] ],
+      [ [ "scrap", 21 ], [ "lc_steel_chunk", 9 ], [ "lc_steel_lump", 1 ] ],
       [ [ "spring", 4 ] ],
       [ [ "metal_tank_little", 1 ] ],
       [ [ "small_storage_battery", 1 ], [ "UPS_off", 1 ] ],
