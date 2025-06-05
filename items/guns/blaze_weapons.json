@@ -143,7 +143,7 @@
     "energy_drain": "249 kJ",
     "valid_mod_locations": [  ],
     "ammo_effects": [ "LASER", "WIDE" ],
-    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "MOUNTED_GUN", "USE_UPS" ]
+    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "MOUNTED_GUN", "NEEDS_NO_LUBE", "USE_UPS" ]
   },
   {
     "id": "lasgunp",
@@ -168,7 +168,7 @@
     "energy_drain": "29 kJ",
     "valid_mod_locations": [  ],
     "ammo_effects": [ "LASER", "WIDE" ],
-    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "MOUNTED_GUN", "USE_UPS" ]
+    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "MOUNTED_GUN", "NON_FOULING", "NEEDS_NO_LUBE", "USE_UPS" ]
   },
   {
     "id": "lasgunx",
@@ -192,7 +192,7 @@
     "energy_drain": "499 kJ",
     "valid_mod_locations": [  ],
     "ammo_effects": [ "EXPLOSIVE", "LASER", "WIDE" ],
-    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "MOUNTED_GUN", "NON_FOULING", "USE_UPS" ]
+    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "MOUNTED_GUN", "NON_FOULING", "NEEDS_NO_LUBE", "USE_UPS" ]
   },
   {
     "id": "nailmag",
@@ -632,7 +632,7 @@
     "energy_drain": "249 kJ",
     "valid_mod_locations": [  ],
     "ammo_effects": [ "BOUNCE", "LIGHTNING" ],
-    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON_FOULING", "MOUNTED_GUN", "USE_UPS" ]
+    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON_FOULING", "NEEDS_NO_LUBE", "MOUNTED_GUN", "USE_UPS" ]
   },
   {
     "id": "tihar",
@@ -819,7 +819,7 @@
       [ "underbarrel mount", 1 ]
     ],
     "ammo_effects": [ "LASER", "INCENDIARY" ],
-    "flags": [ "NO_UNLOAD", "NON_FOULING", "NEEDS_NO_LUBE", "USE_UPS" ]
+    "flags": [ "NO_UNLOAD", "NON_FOULING", "NEEDS_NO_LUBE", "NEEDS_NO_LUBE", "USE_UPS" ]
   },
   {
     "id": "bio_blaster",
