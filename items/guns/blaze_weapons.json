@@ -24,14 +24,11 @@
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
-        "holster": true,
-        "max_contains_volume": "20 L",
         "magazine_well": "250 ml",
-        "max_contains_weight": "20 kg",
         "item_restriction": [ "bolt_hopper" ]
       }
     ],
-    "flags": [ "NEVER_JAMS", "MOUNTED_GUN" ]
+    "flags": [ "NEVER_JAMS", "MOUNTED_GUN", "NON_FOULING" ]
   },
   {
     "id": "cangun",
@@ -58,10 +55,7 @@
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
-        "holster": true,
-        "max_contains_volume": "30 L",
         "magazine_well": "250 ml",
-        "max_contains_weight": "45 kg",
         "item_restriction": [ "cannister_rack" ]
       }
     ],
@@ -240,13 +234,11 @@
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
-        "holster": true,
-        "max_contains_volume": "20 L",
-        "max_contains_weight": "20 kg",
+        "magazine_well": "250 ml",
         "item_restriction": [ "nailmag" ]
       }
     ],
-    "flags": [ "USE_UPS" ]
+    "flags": [ "USE_UPS", "NON_FOULING" ]
   },
   {
     "id": "nailrifle",
@@ -273,14 +265,13 @@
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
-        "holster": true,
-        "max_contains_volume": "20 L",
-        "max_contains_weight": "20 kg",
+        "magazine_well": "250 ml",
         "item_restriction": [ "nailmag" ]
       }
     ],
     "relative": { "weight": "1000 g", "volume": "1500 ml", "range": 3, "ranged_damage": { "damage_type": "stab", "amount": 4 } },
-    "proportional": { "price": 3, "dispersion": 0.5 }
+    "proportional": { "price": 3, "dispersion": 0.5 },
+    "flags": [ "NON_FOULING" ]
   },
   {
     "type": "item_group",
@@ -314,10 +305,7 @@
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
-        "holster": true,
-        "max_contains_volume": "20 L",
         "magazine_well": "250 ml",
-        "max_contains_weight": "20 kg",
         "item_restriction": [ "nailmag" ]
       }
     ],
@@ -349,14 +337,11 @@
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
-        "holster": true,
-        "max_contains_volume": "20 L",
         "magazine_well": "250 ml",
-        "max_contains_weight": "20 kg",
         "item_restriction": [ "nailmag" ]
       }
     ],
-    "flags": [ "MOUNTED_GUN", "NEVER_JAMS" ]
+    "flags": [ "MOUNTED_GUN", "NEVER_JAMS", "NON_FOULING" ]
   },
   {
     "id": "heavy_rail_rifle",
@@ -395,7 +380,7 @@
       [ "underbarrel", 1 ]
     ],
     "ammo_effects": [ "INCENDIARY", "TRAIL" ],
-    "flags": [ "RELOAD_ONE", "USE_UPS" ]
+    "flags": [ "RELOAD_ONE", "USE_UPS", "NON_FOULING" ]
   },
   {
     "id": "rebar_rifle",
@@ -433,7 +418,7 @@
       [ "underbarrel mount", 1 ]
     ],
     "ammo_effects": [ "INCENDIARY", "TRAIL" ],
-    "flags": [ "USE_UPS" ]
+    "flags": [ "USE_UPS", "NON_FOULING" ]
   },
   {
     "id": "railturret",
@@ -461,7 +446,7 @@
     "reload": 200,
     "valid_mod_locations": [  ],
     "ammo_effects": [ "EXPLOSIVE_GRENADE", "TRAIL", "WIDE" ],
-    "flags": [ "USE_UPS" ]
+    "flags": [ "USE_UPS", "NON_FOULING" ]
   },
   {
     "id": "ripper",
@@ -574,10 +559,7 @@
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
-        "holster": true,
-        "max_contains_volume": "20 L",
         "magazine_well": "250 ml",
-        "max_contains_weight": "20 kg",
         "item_restriction": [ "bb_hopper" ]
       }
     ],
@@ -774,10 +756,7 @@
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
-        "holster": true,
-        "max_contains_volume": "20 L",
         "magazine_well": "250 ml",
-        "max_contains_weight": "20 kg",
         "item_restriction": [ "pebble_hopper" ]
       }
     ],
@@ -927,10 +906,7 @@
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
-        "holster": true,
-        "max_contains_volume": "20 L",
         "magazine_well": "250 ml",
-        "max_contains_weight": "20 kg",
         "item_restriction": [ "g3_makeshiftmag", "g3mag", "g3bigmag" ]
       }
     ]
@@ -972,10 +948,7 @@
     "pocket_data": [
       {
         "pocket_type": "MAGAZINE_WELL",
-        "holster": true,
-        "max_contains_volume": "20 L",
         "magazine_well": "250 ml",
-        "max_contains_weight": "20 kg",
         "item_restriction": [
           "survivor223mag",
           "stanag30",
