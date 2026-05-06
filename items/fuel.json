@@ -1,8 +1,7 @@
 [
   {
     "id": "bfeedfuel",
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "category": "fuel",
     "name": { "str": "liquified blob feed", "str_pl": "bfeedfuel" },
     "description": "Liquified blob feed, useful for fueling certain blob based vehicle parts",
@@ -23,13 +22,13 @@
   },
   {
     "id": "bfeed",
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "category": "fuel",
     "name": { "str_sp": "blob feed" },
     "description": "An amalgam of various types of organic material, contains everything the blob needs to be healthy.  You think…",
     "weight": "50 g",
     "volume": "250 ml",
+    "to_hit": -3,
     "melee_damage": { "bash": 8 },
     "material": [ "flesh" ],
     "symbol": "*",

@@ -1,8 +1,7 @@
 [
   {
     "abstract": "canbomb_generic",
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "name": { "str": "IED" },
     "melee_damage": { "bash": 8 },
     "material": [ "iron" ],
@@ -15,8 +14,7 @@
   {
     "id": "canbomb",
     "copy-from": "canbomb_generic",
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "name": { "str": "blast canister" },
     "description": "An IED composed of a sealed container filled with a payload material that triggers on impact.  Carries a substantial explosive payload.",
     "weight": "3816 g",
@@ -30,8 +28,7 @@
   {
     "id": "canbomb2",
     "copy-from": "canbomb_generic",
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "name": { "str": "Big Bang canister" },
     "description": "An IED composed of a sealed container filled with a payload material that triggers on impact.  Carries a VERY substantial explosive payload.",
     "weight": "15160 g",
@@ -45,8 +42,7 @@
   {
     "id": "canbombfire",
     "copy-from": "canbomb_generic",
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "name": { "str": "fire canister" },
     "description": "An IED composed of a container filled with a payload material and a means to trigger it.  Intended to be fired from a specialized launcher.  This one is designed to douse a small area with deadly flames.",
     "weight": "3816 g",
@@ -60,8 +56,7 @@
   {
     "id": "canbombfire2",
     "copy-from": "canbomb_generic",
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "name": { "str": "inferno canister" },
     "description": "An IED composed of a container filled with a payload material and a means to trigger it.  Intended to be fired from a specialized launcher.  This one is designed to douse a large area with deadly flames.",
     "weight": "6816 g",
@@ -75,8 +70,7 @@
   {
     "id": "canbombfrag",
     "copy-from": "canbomb_generic",
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "name": { "str": "fragmentation canister" },
     "description": "An IED composed of a container filled with a payload material and a means to trigger it.  Intended to be fired from a specialized launcher.  This one is designed to spray the immediate area with deadly shrapnel.",
     "weight": "4816 g",
@@ -85,12 +79,11 @@
     "count": 1,
     "stack_size": 1,
     "damage": { "damage_type": "stab", "amount": 75 },
-    "extend": { "effects": [ "EXPLOSIVE_GRENADE" ] }
+    "extend": { "effects": [ "FRAG" ] }
   },
   {
     "id": "h_projectile",
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "name": { "str": "modified mininuke" },
     "description": "A heavy modified handheld nuclear device.  Intended to be fired from a specialized launcher, its case has been cut down and it has been rigged to explode on impact.  While it is now somewhat lighter than before, it can no longer be triggered manually.",
     "weight": "3816 g",
@@ -109,8 +102,7 @@
   },
   {
     "id": "harpoon",
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "name": { "str": "harpoon" },
     "description": "A large spear carved from wood.  This was fashioned specifically to be fired from a compatible weapon; thus unsuitable for melee combat.",
     "weight": "1455 g",
@@ -123,13 +115,11 @@
     "count": 10,
     "ammo_type": "harpoon",
     "damage": { "damage_type": "stab", "amount": 40, "armor_penetration": 10 },
-    "recovery_chance": 3,
-    "effects": [ "NEVER_MISFIRES" ]
+    "effects": [ "RECOVER_3", "NEVER_MISFIRES" ]
   },
   {
     "abstract": "hbolt_generic",
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "name": { "str": "IED rigged bolt" },
     "volume": "250 ml",
     "melee_damage": { "bash": 8 },
@@ -145,8 +135,7 @@
   {
     "id": "hbolt_boom",
     "copy-from": "hbolt_generic",
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "name": { "str": "nova bolt" },
     "description": "An IED composed of a sealed container filled with a payload material affixed to the end of a large ballista bolt.  Intended to be fired from a specialized launcher.  Carries a substantial explosive payload.",
     "weight": "3816 g",
@@ -156,8 +145,7 @@
   {
     "id": "hbolt_boom2",
     "copy-from": "hbolt_generic",
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "name": { "str": "supernova bolt" },
     "description": "An IED composed of a sealed container filled with a payload material affixed to the end of a large ballista bolt.  Intended to be fired from a specialized launcher.  Carries a very substantial explosive payload.",
     "weight": "3816 g",
@@ -167,8 +155,7 @@
   {
     "id": "hbolt_fire",
     "copy-from": "hbolt_generic",
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "name": { "str": "searing bolt" },
     "description": "An IED composed of a container filled with a payload material affixed to the end of a large ballista bolt.  Intended to be fired from a specialized launcher.  This one is designed to douse a small area with deadly flames.",
     "weight": "3816 g",
@@ -178,8 +165,7 @@
   {
     "id": "hbolt_fire2",
     "copy-from": "hbolt_generic",
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "name": { "str": "napalm bolt" },
     "description": "An IED composed of a container filled with a payload material affixed to the end of a large ballista bolt.  Intended to be fired from a specialized launcher.  This one is designed to douse a large area with deadly flames.",
     "weight": "6816 g",
@@ -189,18 +175,16 @@
   {
     "id": "hbolt_frag",
     "copy-from": "hbolt_generic",
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "name": { "str": "shatter bolt" },
     "description": "An IED composed of a container filled with a payload material affixed to the end of a large ballista bolt.  Intended to be fired from a specialized launcher.  This one is designed to spray the immediate area with deadly shrapnel.",
     "weight": "4816 g",
     "price": "8 USD",
-    "extend": { "effects": [ "EXPLOSIVE_GRENADE" ] }
+    "extend": { "effects": [ "FRAG" ] }
   },
   {
     "id": "hbolt_metal",
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "name": { "str": "steel ballista bolt" },
     "description": "A long shaft carved from wood ending in a tip of sharpened metal.  It's quite heavy, capable of dealing large amounts of damage, but isn't particularly accurate.  Stands a good chance of remaining intact once fired.",
     "weight": "2055 g",
@@ -214,12 +198,11 @@
     "ammo_type": "hbolt",
     "range": 10,
     "damage": { "damage_type": "stab", "amount": 35, "armor_penetration": 35 },
-    "recovery_chance": 3
+    "effects": [ "RECOVER_3" ]
   },
   {
     "id": "hbolt_nuke",
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "name": { "str": "nuclear bolt" },
     "description": "A heavy modified handheld nuclear device affixed to the end of a large ballista bolt.  Its case has been cut down and it has been rigged to explode on impact.  It can no longer be triggered manually.",
     "weight": "3816 g",
@@ -238,8 +221,7 @@
   },
   {
     "id": "hbolt_wood",
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "name": { "str": "wood ballista bolt" },
     "description": "A sharpened bolt carved from wood.  It's fairly heavy, capable of dealing large amounts of damage, but isn't particularly accurate.  Stands a good chance of remaining intact once fired.",
     "weight": "1555 g",
@@ -253,12 +235,11 @@
     "ammo_type": "hbolt",
     "range": 10,
     "damage": { "damage_type": "stab", "amount": 20, "armor_penetration": 20 },
-    "recovery_chance": 5
+    "effects": [ "RECOVER_5" ]
   },
   {
     "id": "rebar_rail",
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "name": { "str": "rebar rail" },
     "description": "A short piece of ferromagnetic rebar which has been straightened and sharpened on one end.  Could be used as a projectile by a sufficiently powerful electromagnetic weapon.",
     "weight": "236 g",
@@ -266,6 +247,7 @@
     "volume": "300 ml",
     "price": "10 USD",
     "price_postapoc": "2 USD",
+    "to_hit": -1,
     "melee_damage": { "bash": 5, "cut": 1 },
     "material": [ "steel" ],
     "symbol": "=",
@@ -280,8 +262,7 @@
   {
     "id": "steel_rail",
     "copy-from": "rebar_rail",
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "name": { "str": "steel rail" },
     "description": "A short piece of steel which has been forged true and sharpened on one end.  Could be used as a projectile by a sufficiently powerful electromagnetic weapon.",
     "weight": "212 g",
@@ -296,8 +277,7 @@
     "relative": { "range": 10, "damage": { "damage_type": "stab", "amount": -5, "armor_penetration": 15 } }
   },
   {
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "id": "shotcanister_scrap",
     "price": "10 USD",
     "price_postapoc": "2 USD",
@@ -318,8 +298,7 @@
     "count": 10
   },
   {
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "id": "shotcanister_pebble",
     "price": "10 USD",
     "price_postapoc": "1 USD",
@@ -340,8 +319,7 @@
     "count": 10
   },
   {
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "id": "shotcanister_flechette",
     "price": "10 USD",
     "price_postapoc": "2 USD",
@@ -362,8 +340,7 @@
     "count": 10
   },
   {
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "id": "shotcanister_bearing",
     "price": "10 USD",
     "price_postapoc": "2 USD",
@@ -385,8 +362,7 @@
   },
   {
     "id": "pebble_mk2",
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "name": { "str": "Iron-coated pebble" },
     "description": "Pebble - Mark II, takes time and special equipment to create but totally worth it if you want to step up your armor-piercing game with pneumatics",
     "weight": "12 g",
@@ -406,8 +382,7 @@
   },
   {
     "id": "pebble_clay_mk2",
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "name": { "str": "Iron-coated clay pellet" },
     "description": "A clay pellet coated with iron - Mark II, takes time and special equipment to create but totally worth it if you want to step up your armor-piercing game with pneumatics that use pebble ammo.",
     "weight": "12 g",
@@ -427,8 +402,7 @@
   },
   {
     "id": "pebble_mk3",
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "name": { "str": "Bone-coated pebble" },
     "description": "Pebble - Mark III, you've already seen Skeletal Juggernauts, right?Well this is basically miniature version of it - bone coating infused with blob, for some reason this strange infusion works quite well when you coat the normal pebbles with it",
     "weight": "16 g",
@@ -448,8 +422,7 @@
   },
   {
     "id": "pebble_mk4",
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "name": { "str": "Alloy-coated pebble" },
     "description": "Pebble - Mark IV, much deadlier but harder to craft version of 'Pebble - Mark ii', synthesis of rigid alloy and living blob truly makes this ammo spectacular, peculiar even, who would have thought that blob can be turned into living ammo?",
     "weight": "18 g",
@@ -469,13 +442,13 @@
   },
   {
     "id": "lead_ball",
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "name": { "str": "lead ball" },
     "description": "A heavy lead ball about 8cm in diameter.  Could pack quite a bit of a punch if you had something to launch it.",
     "weight": "400 g",
     "volume": "250 ml",
     "price": "2 USD",
+    "to_hit": -3,
     "melee_damage": { "bash": 8 },
     "material": [ "steel" ],
     "symbol": "*",
@@ -484,13 +457,11 @@
     "ammo_type": "h_projectile",
     "range": 3,
     "damage": { "damage_type": "stab", "amount": 50 },
-    "recovery_chance": 20,
-    "effects": [ "LARGE_BEANBAG" ]
+    "effects": [ "RECOVER_20", "LARGE_BEANBAG" ]
   },
   {
     "id": "ripdisk",
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "name": { "str": "serrated disc" },
     "description": "A metal disc surrounded by serrated edges.  It's as menacing as it sounds.",
     "weight": "1255 g",
@@ -504,13 +475,11 @@
     "ammo_type": "ripdisk",
     "range": 6,
     "damage": { "damage_type": "stab", "amount": 25, "armor_penetration": 5 },
-    "recovery_chance": 3,
-    "effects": [ "NEVER_MISFIRES" ]
+    "effects": [ "RECOVER_3", "NEVER_MISFIRES" ]
   },
   {
     "id": "shards",
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "name": { "str": "metal fragment" },
     "description": "Small slivers of metal.  Can't see much use for them.",
     "weight": "1 g",
@@ -528,15 +497,13 @@
   {
     "id": "pool_ball",
     "copy-from": "pool_ball",
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "name": { "str": "pool ball" },
     "count": 1,
     "ammo_type": "h_projectile",
     "range": 6,
     "damage": { "damage_type": "stab", "amount": 23 },
     "dispersion": 30,
-    "recovery_chance": 10,
-    "effects": [ "BEANBAG" ]
+    "effects": [ "RECOVER_10", "BEANBAG" ]
   }
 ]

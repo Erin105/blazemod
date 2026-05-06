@@ -1,7 +1,7 @@
 [
   {
     "id": "diamondframe",
-    "type": "ITEM",
+    "type": "GENERIC",
     "category": "veh_parts",
     "name": { "str": "diamond frame" },
     "//": "Sempai can't resist me now!",
@@ -9,6 +9,7 @@
     "weight": "9498 g",
     "volume": "10 L",
     "price": "100 kUSD",
+    "to_hit": -3,
     "melee_damage": { "bash": 15 },
     "material": [ "diamond" ],
     "symbol": "]",
@@ -17,13 +18,14 @@
   },
   {
     "id": "diamondplate",
-    "type": "ITEM",
+    "type": "GENERIC",
     "category": "veh_parts",
     "name": { "str": "diamond plating" },
     "description": "A piece of armor plating made of clear diamond.  Incredibly strong for its weight.",
     "weight": "6130 g",
     "volume": "3 L",
     "price": "120 kUSD",
+    "to_hit": -3,
     "melee_damage": { "bash": 15 },
     "material": [ "diamond" ],
     "symbol": "]",

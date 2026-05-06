@@ -1,9 +1,8 @@
 [
   {
     "id": "blaze_marlin_9a",
-    "looks_like": "modular_ar15",
-    "type": "ITEM",
-    "subtypes": [ "GUN" ],
+    "looks_like": "ar15",
+    "type": "GUN",
     "reload_noise_volume": 10,
     "name": { "str": "modified Marlin 39A" },
     "description": "A Marlin 39A, modified for use in a vehicle turret",
@@ -11,6 +10,7 @@
     "volume": "2500 ml",
     "price": "230 USD",
     "price_postapoc": "20 USD",
+    "to_hit": -1,
     "melee_damage": { "bash": 12 },
     "material": [ "iron", "wood" ],
     "symbol": "(",
@@ -35,15 +35,14 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
-    "faults": [ { "fault": "fault_gun_blackpowder" }, { "fault": "fault_gun_dirt" } ],
+    "faults": [ "fault_gun_blackpowder", "fault_gun_dirt" ],
     "flags": [ "RELOAD_ONE" ],
     "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "22": 19 } } ]
   },
   {
     "id": "blaze_sks",
-    "looks_like": "modular_ar15",
-    "type": "ITEM",
-    "subtypes": [ "GUN" ],
+    "looks_like": "ar15",
+    "type": "GUN",
     "reload_noise_volume": 10,
     "name": { "str": "modified SKS" },
     "description": "An SKS, modified to be suitable for use in a vehicle turret",
@@ -52,6 +51,7 @@
     "longest_side": "103 cm",
     "price": "380 USD",
     "price_postapoc": "35 USD",
+    "to_hit": -1,
     "melee_damage": { "bash": 12 },
     "material": [ "steel", "wood" ],
     "symbol": "(",

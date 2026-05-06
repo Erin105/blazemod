@@ -1,8 +1,7 @@
 [
   {
     "id": "vpower",
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "category": "chems",
     "name": { "str_sp": "vortex core" },
     "description": "Seeing this is a bug.",
