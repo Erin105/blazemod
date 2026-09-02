@@ -161,7 +161,6 @@
       "target": "gloople_act",
       "msg": "You fumble as the blob starts to multiply rapidly!",
       "target_charges": 7,
-      "active": true,
       "moves": 250,
       "type": "transform"
     }
@@ -259,7 +258,6 @@
       "target": "gray_act",
       "msg": "You fumble as the blob starts to multiply rapidly!",
       "target_charges": 3,
-      "active": true,
       "moves": 250,
       "type": "transform"
     }
@@ -399,7 +397,6 @@
       "target": "oozle_act",
       "msg": "You fumble as the blob starts to multiply rapidly!",
       "target_charges": 5,
-      "active": true,
       "moves": 250,
       "type": "transform"
     }
