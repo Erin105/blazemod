@@ -22,7 +22,7 @@
     "item": "cutter",
     "color": "dark_gray",
     "broken_color": "dark_gray",
-    "power": -1750,
+    "power": "-1750 W",
     "breaks_into": [ { "item": "cutter", "count": [ 0, 1 ] } ],
     "requirements": {
       "install": { "skills": [ [ "mechanics", 4 ] ], "time": "60 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },
@@ -99,7 +99,7 @@
     "item": "ripper",
     "color": "dark_gray",
     "broken_color": "dark_gray",
-    "power": -8750,
+    "power": "-8750 W",
     "breaks_into": [ { "item": "ripper", "count": [ 0, 1 ] } ],
     "requirements": {
       "install": { "skills": [ [ "mechanics", 5 ] ], "time": "60 m", "using": [ [ "vehicle_wrench_2", 1 ] ] },

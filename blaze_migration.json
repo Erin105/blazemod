@@ -133,5 +133,29 @@
     "id": "xsolar_panel_v3",
     "type": "MIGRATION",
     "replace": "solar_panel_v2"
+  },
+  {
+	"type": "vehicle_part_migration",
+	"//": "added on experimental post .I in august 2026",
+	"from": "mounted_calico",
+	"to": "mounted_fn_fal"
+  },
+  {
+	"type": "vehicle_part_migration",
+	"//": "added on experimental post .I in august 2026",
+	"from": "mounted_hk_mp7",
+	"to": "mounted_hk_mp5"
+  },
+  {
+	"type": "vehicle_part_migration",
+	"//": "added on experimental post .I in august 2026",
+	"from": "mounted_savage_111f",
+	"to": "mounted_rm11b_sniper_rifle"
+  },
+  {
+	"type": "vehicle_part_migration",
+	"//": "added on experimental post .I in august 2026",
+	"from": "mounted_tec9",
+	"to": "mounted_uzi"
   }
 ]
