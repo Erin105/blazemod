@@ -29,22 +29,22 @@
     "id": "solar_array_part",
     "type": "vehicle_part",
     "name": { "str": "solar array" },
-    "item": "solar_array",
+    "item": "ground_solar_panel",
     "location": "structure",
     "variants": [ { "symbols": "#", "symbols_broken": "x" } ],
     "categories": [ "energy" ],
     "color": "yellow",
     "broken_color": "yellow",
     "durability": 20,
-    "epower": "145 W",
+    "epower": "240 W",
     "damage_modifier": 10,
     "folded_volume": "10 L",
-    "description": "A vertical array of three solar panels set on a chassis rising above one another on a metal pole with rudimentary tracking and motors.  Due to the flimsy nature of the hydraulics and high surface area profile to maximize sunlight, they can't really be installed onto an existing vehicle.  Requires a jumper cable or similar to pull power from.",
+    "description": "Mounted solar panel array.  Due to the flimsy nature of the hydraulics and high surface area profile to maximize sunlight, they can't really be installed onto an existing vehicle.  Requires a jumper cable or similar to pull power from.",
     "breaks_into": [
       { "item": "lc_steel_lump", "count": [ 2, 12 ] },
       { "item": "lc_steel_chunk", "count": [ 2, 12 ] },
       { "item": "scrap", "count": [ 2, 12 ] },
-      { "item": "solar_cell", "count": [ 4, 12 ] }
+      { "item": "solar_cell", "count": [ 4, 24 ] }
     ],
     "requirements": {
       "install": { "skills": [ [ "mechanics", 6 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
@@ -69,12 +69,12 @@
     "durability": 300,
     "proportional": { "epower": 0.9 },
     "folded_volume": "14 L",
-    "description": "A vertical array of three reinforced solar panels set on a chassis rising above one another on a metal pole with rudimentary tracking and motors.  Due to the flimsy nature of the hydraulics and high surface area profile to maximize sunlight, they can't really be installed onto an existing vehicle.  Requires a jumper cable or similar to pull power from.",
+    "description": "Mounted reinforced solar panel array.  Due to the flimsy nature of the hydraulics and high surface area profile to maximize sunlight, they can't really be installed onto an existing vehicle.  Requires a jumper cable or similar to pull power from.",
     "breaks_into": [
       { "item": "lc_steel_lump", "count": [ 2, 21 ] },
       { "item": "lc_steel_chunk", "count": [ 2, 21 ] },
       { "item": "scrap", "count": [ 2, 21 ] },
-      { "item": "solar_cell", "count": [ 4, 12 ] }
+      { "item": "solar_cell", "count": [ 4, 24 ] }
     ],
     "requirements": {
       "install": { "skills": [ [ "mechanics", 8 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] },
@@ -92,22 +92,22 @@
     "type": "vehicle_part",
     "categories": [ "energy" ],
     "copy-from": "solar_array_part",
-    "name": { "str": "upgraded solar array" },
-    "item": "solar_array_v2",
+    "name": { "str": "advanced solar array" },
+    "item": "ground_solar_panel_v2",
     "proportional": { "epower": 2.0 },
     "folded_volume": "12 L",
-    "description": "A vertical array of three upgraded solar panels set on a chassis rising above one another on a metal pole with rudimentary tracking and motors.  Due to the flimsy nature of the hydraulics and high surface area profile to maximize sunlight, they can't really be installed onto an existing vehicle.  Requires a jumper cable or similar to pull power from.",
+    "description": "Mounted advanced solar panel array.  Due to the flimsy nature of the hydraulics and high surface area profile to maximize sunlight, they can't really be installed onto an existing vehicle.  Requires a jumper cable or similar to pull power from.",
     "breaks_into": [
       { "item": "lc_steel_lump", "count": [ 2, 12 ] },
       { "item": "lc_steel_chunk", "count": [ 2, 12 ] },
       { "item": "scrap", "count": [ 2, 12 ] },
-      { "item": "solar_cell", "count": [ 4, 18 ] }
+      { "item": "solar_cell", "count": [ 4, 24 ] }
     ],
     "requirements": {
       "repair": {
         "skills": [ [ "electronics", 6 ] ],
         "time": "150 m",
-        "using": [ [ "vehicle_screw", 1 ], [ "solar_panel_v2", 3 ], [ "soldering_standard", 8 ] ]
+        "using": [ [ "vehicle_screw", 1 ], [ "solar_panel_v2", 1 ], [ "soldering_standard", 8 ] ]
       }
     },
     "flags": [ "SOLAR_PANEL", "OBSTACLE", "INITIAL_PART", "PROTRUSION", "EXTRA_DRAG" ]
@@ -116,7 +116,7 @@
     "id": "reinforced_solar_array_v2_part",
     "type": "vehicle_part",
     "copy-from": "solar_array_v2_part",
-    "name": { "str": "upgraded reinforced solar array" },
+    "name": { "str": "reinforced advanced solar array" },
     "item": "reinforced_solar_array_v2",
     "categories": [ "energy" ],
     "color": "light_blue",
@@ -124,18 +124,18 @@
     "durability": 300,
     "proportional": { "epower": 0.9 },
     "folded_volume": "15 L",
-    "description": "A vertical array of three upgraded reinforced solar panels set on a chassis rising above one another on a metal pole with rudimentary tracking and motors.  Due to the flimsy nature of the hydraulics and high surface area profile to maximize sunlight, they can't really be installed onto an existing vehicle.  Requires a jumper cable or similar to pull power from.",
+    "description": "Mounted reinforced advanced solar panel array.  Due to the flimsy nature of the hydraulics and high surface area profile to maximize sunlight, they can't really be installed onto an existing vehicle.  Requires a jumper cable or similar to pull power from.",
     "breaks_into": [
       { "item": "lc_steel_lump", "count": [ 2, 21 ] },
       { "item": "lc_steel_chunk", "count": [ 2, 21 ] },
       { "item": "scrap", "count": [ 2, 21 ] },
-      { "item": "solar_cell", "count": [ 4, 18 ] }
+      { "item": "solar_cell", "count": [ 4, 24 ] }
     ],
     "requirements": {
       "repair": {
         "skills": [ [ "electronics", 6 ] ],
         "time": "150 m",
-        "using": [ [ "vehicle_screw", 1 ], [ "solar_panel_v2", 3 ], [ "soldering_standard", 8 ] ]
+        "using": [ [ "vehicle_screw", 1 ], [ "solar_panel_v2", 1 ], [ "soldering_standard", 8 ] ]
       }
     },
     "flags": [ "SOLAR_PANEL", "OBSTACLE", "INITIAL_PART", "PROTRUSION", "EXTRA_DRAG" ]
