@@ -1,28 +1,5 @@
 [
   {
-    "result": "solar_array",
-    "activity_level": "LIGHT_EXERCISE",
-    "type": "recipe",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_MATERIALS",
-    "skill_used": "fabrication",
-    "difficulty": 8,
-    "skills_required": [ [ "mechanics", 5 ], [ "electronics", 8 ] ],
-    "time": "24 h",
-    "autolearn": true,
-    "using": [ [ "welding_standard", 10 ], [ "soldering_standard", 15 ] ],
-    "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
-    "components": [
-      [ [ "pipe", 4 ], [ "rebar", 2 ] ],
-      [ [ "lc_steel_chunk", 18 ], [ "lc_steel_lump", 6 ] ],
-      [ [ "spring", 1 ] ],
-      [ [ "sensor_module", 1 ] ],
-      [ [ "targeting_module", 1 ] ],
-      [ [ "self_monitoring_module", 1 ] ],
-      [ [ "solar_panel", 3 ] ]
-    ]
-  },
-  {
     "result": "reinforced_solar_array",
     "type": "recipe",
     "activity_level": "LIGHT_EXERCISE",
@@ -36,36 +13,7 @@
     "using": [ [ "welding_standard", 10 ], [ "soldering_standard", 15 ] ],
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
     "components": [
-      [ [ "pipe", 4 ], [ "rebar", 2 ] ],
-      [ [ "lc_steel_chunk", 18 ], [ "lc_steel_lump", 6 ] ],
-      [ [ "spring", 1 ] ],
-      [ [ "sensor_module", 1 ] ],
-      [ [ "targeting_module", 1 ] ],
-      [ [ "self_monitoring_module", 1 ] ],
-      [ [ "reinforced_solar_panel", 3 ] ]
-    ]
-  },
-  {
-    "result": "solar_array_v2",
-    "type": "recipe",
-    "activity_level": "LIGHT_EXERCISE",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_MATERIALS",
-    "skill_used": "fabrication",
-    "difficulty": 8,
-    "skills_required": [ [ "mechanics", 5 ], [ "electronics", 8 ] ],
-    "time": "24 h",
-    "autolearn": true,
-    "using": [ [ "welding_standard", 10 ], [ "soldering_standard", 15 ] ],
-    "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
-    "components": [
-      [ [ "pipe", 4 ], [ "rebar", 2 ] ],
-      [ [ "lc_steel_chunk", 18 ], [ "lc_steel_lump", 6 ] ],
-      [ [ "spring", 1 ] ],
-      [ [ "sensor_module", 1 ] ],
-      [ [ "targeting_module", 1 ] ],
-      [ [ "self_monitoring_module", 1 ] ],
-      [ [ "solar_panel_v2", 3 ] ]
+      [ [ "reinforced_solar_panel", 4 ] ]
     ]
   },
   {
@@ -82,13 +30,7 @@
     "using": [ [ "welding_standard", 10 ], [ "soldering_standard", 15 ] ],
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
     "components": [
-      [ [ "pipe", 4 ], [ "rebar", 2 ] ],
-      [ [ "lc_steel_chunk", 18 ], [ "lc_steel_lump", 6 ] ],
-      [ [ "spring", 1 ] ],
-      [ [ "sensor_module", 1 ] ],
-      [ [ "targeting_module", 1 ] ],
-      [ [ "self_monitoring_module", 1 ] ],
-      [ [ "reinforced_solar_panel_v2", 3 ] ]
+      [ [ "reinforced_solar_panel_v2", 4 ] ]
     ]
   },
   {

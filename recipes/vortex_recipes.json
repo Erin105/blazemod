@@ -12,14 +12,34 @@
     "reversible": false,
     "autolearn": true,
     "using": [ [ "forging_standard", 3 ], [ "steel_standard", 3 ], [ "welding_standard", 6 ] ],
-    "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 }, { "id": "CHISEL", "level": 3 } ],
-    "tools": [ [ [ "tongs", -1 ] ], [ [ "anvil", -1 ] ], [ [ "swage", -1 ] ] ],
+    "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 }, { "id": "ANVIL", "level": 3 }, { "id": "CHISEL", "level": 3 } ],
+    "tools": [ [ [ "metalworking_tongs", -1 ] ], [ [ "swage", -1 ] ] ],
     "components": [
-      [ [ "vortex_stone", 1 ] ],
+      [ [ "vortex_stone", 2 ] ],
+      [ [ "dimensional_anchor", 1 ] ],
       [ [ "chain", 6 ] ],
       [ [ "foot_crank", 6 ] ],
       [ [ "metal_tank", 1 ] ],
-      [ [ "plastic_chunk", 30 ] ]
+      [ [ "plastic_chunk", 30 ] ],
+	  [
+        [ "art_sphere", 1 ],
+        [ "art_rod", 1 ],
+        [ "art_teardrop", 1 ],
+        [ "art_lamp", 1 ],
+        [ "art_snake", 1 ],
+        [ "art_disc", 1 ],
+        [ "art_beads", 1 ],
+        [ "art_napkin", 1 ],
+        [ "art_urchin", 1 ],
+        [ "art_jelly", 1 ],
+        [ "art_spiral", 1 ],
+        [ "art_pin", 1 ],
+        [ "art_tube", 1 ],
+        [ "art_pyramid", 1 ],
+        [ "art_crystal", 1 ],
+        [ "art_knot", 1 ],
+        [ "art_crescent", 1 ]
+      ]
     ]
   },
   {
@@ -34,15 +54,35 @@
     "time": "30 h",
     "autolearn": true,
     "using": [ [ "forging_standard", 3 ], [ "steel_standard", 3 ], [ "welding_standard", 6 ] ],
-    "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 }, { "id": "CHISEL", "level": 3 } ],
-    "tools": [ [ [ "tongs", -1 ] ], [ [ "anvil", -1 ] ], [ [ "swage", -1 ] ] ],
+    "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 }, { "id": "ANVIL", "level": 3 }, { "id": "CHISEL", "level": 3 } ],
+    "tools": [ [ [ "metalworking_tongs", -1 ] ], [ [ "swage", -1 ] ] ],
     "components": [
-      [ [ "vortex_stone", 1 ] ],
+      [ [ "vortex_stone", 2 ] ],
+      [ [ "dimensional_anchor", 1 ] ],
       [ [ "chain", 6 ] ],
       [ [ "foot_crank", 3 ] ],
       [ [ "metal_tank", 1 ] ],
       [ [ "plastic_chunk", 30 ] ],
-      [ [ "alternator_truck", 6 ], [ "alternator_car", 6 ], [ "alternator_motorbike", 6 ] ]
+      [ [ "alternator_truck", 6 ], [ "alternator_car", 12 ], [ "alternator_motorbike", 24 ] ],
+	  [
+        [ "art_sphere", 1 ],
+        [ "art_rod", 1 ],
+        [ "art_teardrop", 1 ],
+        [ "art_lamp", 1 ],
+        [ "art_snake", 1 ],
+        [ "art_disc", 1 ],
+        [ "art_beads", 1 ],
+        [ "art_napkin", 1 ],
+        [ "art_urchin", 1 ],
+        [ "art_jelly", 1 ],
+        [ "art_spiral", 1 ],
+        [ "art_pin", 1 ],
+        [ "art_tube", 1 ],
+        [ "art_pyramid", 1 ],
+        [ "art_crystal", 1 ],
+        [ "art_knot", 1 ],
+        [ "art_crescent", 1 ]
+      ]
     ]
   },
   {
