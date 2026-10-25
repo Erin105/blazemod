@@ -21,7 +21,7 @@
     "category": "veh_parts",
     "name": { "str": "vortex generator" },
     "description": "A tornado in a box, so to speak.  Inside this innocuous tank contains either the culmination of human innovation in clean energy, or a weapon of mass destruction capable of wiping civilization - or what's left of it - off the map.  An external mechanism allow it to be hooked up to a battery to store the power generated.",
-    "weight": "8000 g",
+    "weight": "80000 g",
     "volume": "60 L",
     "price": "15 kUSD",
     "melee_damage": { "bash": 4 },
