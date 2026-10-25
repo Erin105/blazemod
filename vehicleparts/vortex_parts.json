@@ -12,7 +12,7 @@
     "durability": 400,
     "//": "Here power is a multiplier on power efficiency, though ignored because of the PERPTUAL flag",
     "power": "100 W",
-    "epower": "37300 W",
+    "epower": "22400 W",
     "damage_modifier": 10,
     "breaks_into": [
       { "item": "spiral_stone" },
