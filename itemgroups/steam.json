@@ -1,0 +1,46 @@
+[
+  {
+    "type": "item_group",
+    "id": "supplies_mechanics",
+    "copy-from": "supplies_mechanics",
+    "extend": {
+      "items": [
+        { "item": "steam_triple_large", "prob": 1 },
+        { "item": "steam_triple_giant", "prob": 1 }
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "farming_tools",
+    "copy-from": "farming_tools",
+    "extend": {
+      "items": [
+        { "item": "steam_triple_large", "prob": 1 },
+        { "item": "steam_triple_giant", "prob": 1 }
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "recycle_iron",
+    "copy-from": "recycle_iron",
+    "extend": {
+      "items": [
+        { "item": "steam_triple_large", "prob": 1 },
+        { "item": "steam_triple_giant", "prob": 1 }
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "toxic_dump_equipment",
+    "copy-from": "toxic_dump_equipment",
+    "extend": {
+      "items": [
+        { "item": "steam_triple_large", "prob": 1 },
+        { "item": "steam_triple_giant", "prob": 1 }
+      ]
+    }
+  }
+]
